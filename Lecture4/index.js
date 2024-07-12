@@ -44,18 +44,6 @@
 //     // console.log(city.toUpperCase());
 // }
 
-// practice question
-
-// For a given array with marks of students --> [85, 97, 44, 37, 76, 60] find the average marks of the entire class?
-
-// let marks = [85, 97, 44, 37, 76, 60];
-// let sum = 0;
-
-// for (let val of marks) {
-//     sum += val;
-// }
-// let avg = sum/marks.length;
-// console.log(`avg marks of the class = ${avg}`);
 
 
 
@@ -143,20 +131,3 @@
 // arr3.splice(6, 1, 8, 9, 10, 11);
 // console.log(arr3);
 
-// practice questions
-// create a array to store companies "Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"
-// a. Remove the first company from the array
-// b. Remove Uber & Add Ola in its place
-// c. Add Amazon at the end
-
-// let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
-// let shift1 = companies.shift();
-// console.log(companies);
-
-// let companies1 = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
-// let splice1 = companies1.splice(2,1,"Ola");
-// console.log(companies1);
-
-// let companies2 = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
-// let push1 = companies2.push("Amazon");
-// console.log(companies2);

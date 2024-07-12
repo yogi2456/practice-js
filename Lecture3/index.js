@@ -88,38 +88,11 @@
 // };
 
 // for(let key in student) {
-//     console.log("key =", key)
-//     console.log("value =", student[key])
+//     console.log(key, "=", student[key])
+//     // console.log("value =", student[key])
 // }
 
 
-// prctice Questions
-// print all even numbers from 0 to 100?
-
-// for (let i = 0; i <= 100; i++) {
-//     if(i % 2 === 0) { // even number statement
-//         console.log("even number =", i)
-//     }
-// }
-
-// print all odd numbers from 0 to 100?
-
-// for(let i = 0; i <= 100; i++) {
-//     if(i % 2 != 0) {  // odd number statement
-//         console.log("oddnumber =", i)
-//     }
-// }
-
-
-// 2. Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value?
-
-// let gameNum = 30;
-// let userNum = prompt("Enter the guess number");
-
-// while(userNum != gameNum) {
-//     userNum = prompt("You entered the wrong number, guess again.");
-// }
-// console.log("Congratulations you entered the right number")
 
 
 // Strings --> string is a sequence of characters used to represent text.
@@ -163,7 +136,7 @@
 // console.log("javascript \t lecture") // this \t giving space between these two words
 
 
-// string methods
+// string methods tolowercase, touppercase, trim, slice, concat, replace, charAt
 
 // toUpperCase()
 
