@@ -15,7 +15,7 @@
 // console.log(number);
 // console.log(number[0]);
 // console.log(number[4]);
-// console.log(number[1] = 10);;
+// console.log(number[1] = 10);   // replace index with new element
 // console.log(number)
 
 // Looping over an array
@@ -131,3 +131,9 @@
 // arr3.splice(6, 1, 8, 9, 10, 11);
 // console.log(arr3);
 
+let sum = 0;
+
+for(let i = 1; i <= 5; i++) {
+    console.log(`${sum} + ${i}  = ${sum + i}`)
+    sum = sum + i;
+}
